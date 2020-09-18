@@ -1,0 +1,150 @@
+{
+  "id": "eb77780f-6390-417d-860b-7b1121743369",
+  "version": "2.0",
+  "name": "Guru 99 Bank",
+  "url": "http://www.demo.guru99.com",
+  "tests": [{
+    "id": "81efd6d7-beff-4e16-a51b-a2db2516e187",
+    "name": "Invalid login",
+    "commands": [{
+      "id": "5d50dc63-fc49-471e-91fe-ef38c2374539",
+      "comment": "",
+      "command": "open",
+      "target": "/V4/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "77859fe2-d687-47f7-bd55-f3da58655445",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "681x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e95f73ad-2a20-4ea8-966c-702287faaa0c",
+      "comment": "",
+      "command": "click",
+      "target": "name=uid",
+      "targets": [
+        ["name=uid", "name"],
+        ["css=tr:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='uid']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b36ef04a-eb33-4504-9c05-86cc97812fda",
+      "comment": "",
+      "command": "type",
+      "target": "name=uid",
+      "targets": [
+        ["name=uid", "name"],
+        ["css=tr:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='uid']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "username12"
+    }, {
+      "id": "c4911731-44cb-4330-9e29-b6d6bb05d290",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe3b6433-a6e6-4484-825f-3852fe2d0eb9",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5edd1fc8-be62-4294-ad76-0e3601b4f693",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "865df9ba-2f15-4818-9a94-41436f4f8366",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "name=btnReset",
+      "targets": [
+        ["name=btnReset", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='btnReset']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e6988b7-050b-4230-978b-ad7ce5f3e201",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "name=btnReset",
+      "targets": [
+        ["name=btnReset", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='btnReset']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "05a1e317-7a0a-4aee-8bc4-c2fd718533d6",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "Godisagape"
+    }, {
+      "id": "740439f9-af4e-4f9e-b974-4e90bc441773",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnLogin",
+      "targets": [
+        ["name=btnLogin", "name"],
+        ["css=tr:nth-child(3) input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='btnLogin']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2998ba5a-96f8-4b11-b09d-5c38fefa7fb0",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Guru99 Bank Home Page",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "83e3e1eb-7094-4c14-9075-1b59d3127a83",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["81efd6d7-beff-4e16-a51b-a2db2516e187"]
+  }],
+  "urls": ["http://www.demo.guru99.com/"],
+  "plugins": []
+}
